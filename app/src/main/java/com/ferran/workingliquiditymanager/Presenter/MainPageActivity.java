@@ -1,4 +1,4 @@
-package com.ferran.workingliquiditymanager.Presenter;
+package com.ferran.workingliquiditymanager.Presenter.Presenter;
 
 import android.support.v4.app.Fragment;
 
