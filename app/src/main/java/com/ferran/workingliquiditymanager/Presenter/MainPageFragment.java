@@ -1,4 +1,4 @@
-package com.ferran.workingliquiditymanager.Presenter.Presenter;
+package com.ferran.workingliquiditymanager.Presenter;
 
 
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import com.ferran.workingliquiditymanager.R;
  * A simple {@link Fragment} subclass.
  */
 public class MainPageFragment extends Fragment {
-    private Button mOpenAcccountButton;
+    private Button mOpenAccountButton;
 
     public static MainPageFragment newInstance() {
         
@@ -34,8 +34,8 @@ public class MainPageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_main_page,container,false);
-        mOpenAcccountButton=(Button)v.findViewById(R.id.fragment_main_page_open_account);
-        mOpenAcccountButton.setOnClickListener(new View.OnClickListener() {
+        mOpenAccountButton =(Button)v.findViewById(R.id.fragment_main_page_open_account);
+        mOpenAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

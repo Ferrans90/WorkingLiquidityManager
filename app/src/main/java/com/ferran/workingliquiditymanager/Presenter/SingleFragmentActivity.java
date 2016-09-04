@@ -1,4 +1,4 @@
-package com.ferran.workingliquiditymanager.Presenter.Presenter;
+package com.ferran.workingliquiditymanager.Presenter;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

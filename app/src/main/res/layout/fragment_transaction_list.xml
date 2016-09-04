@@ -8,14 +8,12 @@
         android:id="@+id/fragment_transaction_list_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/fragment_transaction_list_owner"
         tools:text="2016-1-1" />
 
     <TextView
         android:id="@+id/fragment_transaction_list_owner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toLeftOf="@id/fragment_transaction_list_invoice"
         tools:text="Ferran" />
 
     <TextView
@@ -23,7 +21,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/fragment_transaction_list_time"
-        android:layout_toLeftOf="@id/fragment_transaction_list_amount"
         tools:text="快递" />
 
     <TextView
@@ -31,7 +28,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/fragment_transaction_list_owner"
-        android:layout_toLeftOf="@id/fragment_transaction_list_invoice"
         tools:text="2000" />
 
     <CheckBox
@@ -39,4 +35,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true" />
-</>
+
+</RelativeLayout>
