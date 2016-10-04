@@ -3,6 +3,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="welcome">Have a nice day</string>
+    <string name="welcome">Welcome</string>
     <string name="open_account">Open account</string>
+    <string name="nice_day">Have a nice day!</string>
 </resources>

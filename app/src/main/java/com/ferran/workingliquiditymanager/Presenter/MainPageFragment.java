@@ -1,6 +1,7 @@
 package com.ferran.workingliquiditymanager.Presenter;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -38,7 +39,8 @@ public class MainPageFragment extends Fragment {
         mOpenAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent=TransactionListActivity.newIntent(getActivity());
+                startActivity(intent);
             }
         });
         return v;
