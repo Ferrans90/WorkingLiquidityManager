@@ -20,6 +20,15 @@ public class TransactionDetailFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static TransactionDetailFragment newInstance() {
+        
+        Bundle args = new Bundle();
+        
+        TransactionDetailFragment fragment = new TransactionDetailFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
