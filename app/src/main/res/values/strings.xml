@@ -7,4 +7,13 @@
     <string name="open_account">Open account</string>
     <string name="nice_day">Have a nice day!</string>
     <string name="invoice_check_box">是否有发票</string>
+    <string name="title_name">名称</string>
+    <string name="title_owner">使用者</string>
+    <string name="title_amount">金额</string>
+    <string name="title_date">日期</string>
+    <string name="title_invoice">发票</string>
+    <string name="hint_name">请输入使用名目</string>
+    <string name="hint_owner">请输入使用者名字</string>
+    <string name="hint_amount">请输入具体金额</string>
+    <string name="hint_date">请选择具体日期</string>
 </resources>
