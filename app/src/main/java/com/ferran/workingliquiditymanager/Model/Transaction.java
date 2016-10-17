@@ -14,12 +14,13 @@ public class Transaction {
     private boolean hasInvoice;
 
     public Transaction() {
-        uuid = UUID.randomUUID();
+        this(UUID.randomUUID());
+        amount = new BigDecimal(0);
     }
 
-    public Transaction(UUID id){
-        uuid=id;
-        time=new GregorianCalendar();
+    public Transaction(UUID id) {
+        uuid = id;
+        time = new GregorianCalendar();
     }
 
     public Transaction(GregorianCalendar time, String owner, String itemName,

@@ -16,4 +16,6 @@
     <string name="hint_owner">请输入使用者名字</string>
     <string name="hint_amount">请输入具体金额</string>
     <string name="hint_date">请选择具体日期</string>
+    <string name="button_confirm">确定</string>
+    <string name="new_Transaction">新纪录</string>
 </resources>

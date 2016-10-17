@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fragment_transaction_amount"
-        android:hint="@string/hint_owner"/>
+        android:hint="@string/hint_amount" />
 
     <TextView
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fragment_transaction_date"
-        android:hint="@string/hint_owner"/>
+        android:hint="@string/hint_date"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -56,5 +56,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/fragment_transaction_invoice"
-        android:hint="@string/hint_owner"/>
+        android:hint="@string/invoice_check_box"/>
 </LinearLayout>

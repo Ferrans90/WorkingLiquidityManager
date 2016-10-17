@@ -16,7 +16,7 @@ public class TransactionBaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table" + TransactionTable.NAME + "("
+        db.execSQL("create table " + TransactionTable.NAME + "("
                 + TransactionTable.Cols.UUID + " primary key, "
                 + TransactionTable.Cols.TIME + ", "
                 + TransactionTable.Cols.OWNER + ", "
